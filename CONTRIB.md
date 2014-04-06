@@ -12,19 +12,19 @@ First things first – thank you very much for considering contributing to this 
 
 Any kind of contribution is encouranged and welcome, even changes to this very document. When you contribute a change, whether it is to documentation, code, or any other project asset, it must be reviewed before being merged. The process looks like this:
 
-1. Make your changes
-2. Submit your changes
-3. Review your changes
+1. Review the project license
+  - If the project license prohibits you from making changes, please consider highlighting this to the project maintainers
+2. Make your changes
+3. Submit your changes
+4. Review your changes
 
 That's right, reviewing your changes isn't just up to the maintainers of the project, but anyone interesting in contributing – including you!
 
-When reviewing, any concerns with the changes should be addressed through testing and objective measurements. If there is pre-existing documented evidence that the changes aren't appropriate, that should also be used in review discussions.
+When reviewing, any concerns with the changes should be addressed through testing and objective measurements. If there is pre-existing documented evidence that the changes aren't appropriate, that should also be used in review discussions. The project may also have automated integrity checks, such as build processes or tests. If your changes do not pass these, please review whether your changes are wrong, or in fact whether the tests themselves are wrong.
 
-Opinions however, must not be accepted as evidence that a contribution should be rejected. If you feel your changes were incorrectly rejected because of opinion, please refer the maintainer to this document and politely ask them to base their decision in fact.
+If you feel your changes were incorrectly rejected, please refer the maintainer to this document and politely ask them to base their decision in fact.
 
-There is but one thing that is always grounds for rejecting a contribution: if the changes do not pass the project's automated integrity checks, such as build processes, test suites etc, it should *not* be accepted. Thus, it is important that you also review the results of such checks and make changes to your submission as necessary. Note that this may include changing the checks themselves, as they may be incorrect!
-
-Again, thank you for contributing to this project!
+Again, thank you very much for contributing to this project!
 
 For maintainers
 ---------------
@@ -49,6 +49,7 @@ Here's a check list for things to look for when reviewing a contribution:
 6. Do the changes alter documentation in such a way that it is incorrect or otherwise doesn't fit the de facto style of writing?
   - Back up any claims of incorrectness with fact – if possible – and see if these issues can be resolved
   - Consider whether the style of writing should change to accomodate the contribution
+7. Do the changes violate the license of the project?
 
 When reviewing the changes, remember to base your views in fact, not opinion. Here are a few reasons that should *never* be cause for rejecting a change:
 
@@ -56,6 +57,8 @@ When reviewing the changes, remember to base your views in fact, not opinion. He
   + If it's important, write a style guide and make it part of the automated checks
 - How something is implemented
   + If there are no security or performance concerns with the submission, and it passes all the tests, then it's valid
+
+Regardless of whether contributions are contested, as a maintainer you should consider just accepting them after some time if there is no compelling evidence to suggest otherwise. Especially so if the debate becomes inactive.
 
 No matter what, please remember that the contributor took time out of their life to help you with this project, and do your utmost to keep the discussion polite and civil with the ultimate goal of eventually accepting their contributions. If for whatever reason this isn't possible, please try to ensure this is based in fact rather than opinion, and always politely state why the changes can not be accepted.
 
