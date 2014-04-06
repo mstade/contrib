@@ -12,7 +12,7 @@ First things first – thank you very much for considering contributing to this 
 
 Any kind of contribution is encouranged and welcome, even changes to this very document. When you contribute a change, whether it is to documentation, code, or any other project asset, it must be reviewed before being merged. The process looks like this:
 
-1. Review the project license
+1. Review the [project license][lic]
   - If the project license prohibits you from making changes, please consider highlighting this to the project maintainers
 2. Make your changes
 3. Submit your changes
@@ -49,7 +49,7 @@ Here's a check list for things to look for when reviewing a contribution:
 6. Do the changes alter documentation in such a way that it is incorrect or otherwise doesn't fit the de facto style of writing?
   - Back up any claims of incorrectness with fact – if possible – and see if these issues can be resolved
   - Consider whether the style of writing should change to accomodate the contribution
-7. Do the changes violate the license of the project?
+7. Do the changes violate the [project license][lic]?
 
 When reviewing the changes, remember to base your views in fact, not opinion. Here are a few reasons that should *never* be cause for rejecting a change:
 
@@ -65,3 +65,5 @@ No matter what, please remember that the contributor took time out of their life
 ---
 
 Regardless of whether you are a contributor or maintainer (or both!) of this project – thank you!
+
+[lic]: LICENSE
