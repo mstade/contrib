@@ -3,7 +3,7 @@ Contrib
 
 A collection of policies for contributing to open source projects.
 
-To read the contribution policies, please refer to [CONTRIB][contrib.md].
+To read the contribution policies, please refer to [CONTRIB][./contrib.md].
 
 Background
 ----------
